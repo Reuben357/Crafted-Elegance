@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <!--Css link  -->
+    <link rel="stylesheet" href="product_page.css">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+      <section class="product" id="product">
+        <div class="product-container container">
+            <!-- Product image -->
+            <div class="product-img">
+                <img id="product-img" src="/images/pngwing.com (5).png" alt="">
+            </div>
+            
+             <!-- Product description -->
+             <div class="product-desc">
+                <span class="product-name">Black Leather Jacket</span><br>
+                <span class="product-price">Ksh 1,120.00</span>
+                <p>Tax Included</p>
+                <div class="product-rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star-half-alt"></i></span>
+                </div>
+
+                <p class = "product-description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.
+                </p>
+
+                <div class="product-size">
+                  <span>Size</span>
+                  <div class="dropdown">
+                    <input type="text" name="size" id="size" class="textBox" placeholder="Pick best fit" readonly>
+                    <div class="option">
+                        <div onclick="show('Small')">Small</div>
+                        <div onclick="show('Medium')">Medium</div>
+                        <div onclick="show('Large')">Large</div>
+                        <div onclick="show('X-Large')">X-Large</div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class = "btn-groups">
+                    <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                    <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
+                </div>
+
+            </div>
+
+            <!-- Similar Products -->
+            <div class="similar-product">
+               <img class="thumbnail active" src="/images/pngwing.com (5).png" alt="">
+               <img class="thumbnail" src="/images/pngwing.com (2).png" alt="">
+               <img class="thumbnail" src="/images/pngwing.com (3).png" alt="">
+               <img class="thumbnail" src="/images/pngwing.com (7).png" alt="">
+            </div>
+
+        </div>
+      </section>
+
+
+    <!-- products page js -->
+    <script src="product_page.js"></script>
+    
+    <!-- Bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
