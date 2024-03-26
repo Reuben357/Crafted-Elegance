@@ -88,9 +88,6 @@ if(isset($_POST['add_to_cart'])){ //Check if the user clicked on add-to-cart btn
 //    When quantity is edited recalculate total
     calcTotalCart();
 
-}else{
-   // header('location: home_page.php');
-    //Redirects the user to the home page if they tried to get to the carts page through somewhere else.
 }
 
 function calcTotalCart(){
