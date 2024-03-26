@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+global$belt_products,$jacket_products; <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
